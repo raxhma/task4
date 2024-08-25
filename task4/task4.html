@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <header class="sticky">
+        <div class="wrapper">
+            <nav class="nav-bar">
+                <a href="#" class="toggle_button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="left">Personal Website</div>
+                <div class="right">
+                    <ul class="links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Fatma Rahma Messai, a passionate web developer and TBS student.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+    
+    <main>
+       
+        <section id="about" class="about-me">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I'm Fatma Rahma Messai, a BSBA student with a passion for IT. I'm currently a sophomore student at Tunis Business School and currently working on various projects that showcase my skills in HTML, CSS, and JavaScript.</p>
+                <p>My professional experience includes working with Prodigy Infotech, where I honed my skills in Web Development.</p>
+            </div>
+            <img src="img.jpg" alt="Profile Photo" class="profile-img">
+        </section>
+        
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Tic Tac Toe Web Application</h3>
+                <p>
+                     A classic Tic Tac Toe game built using HTML, CSS, and JavaScript. This interactive game allows players to play against each other, and features sound effects, background music, and celebratory animations.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2:stopwatch web application </h3>
+                <p>A responsive stopwatch web application built with HTML, CSS, and JavaScript, allowing users to start, stop, reset, and record laps on one or two independent timers. The intuitive interface ensures seamless operation, whether managing a single stopwatch or tracking time on two separate watches simultaneously.</p>
+            </div>
+            <div>
+                <div class="project"> 
+                    <h3>Project 3: Restaurant Menu</h3>
+                    <p>An interactive restaurant menu designed with HTML, CSS, and JavaScript, offering dynamic navigation and a user-friendly experience. The menu allows users to easily explore different sections, with smooth transitions and responsive design ensuring accessibility across all devices.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li class="logos">
+                    <a href="https://www.linkedin.com/in/fatma-rahma-messai-642b81295/" target="_blank">
+                        <img src="l.png" alt="LinkedIn">
+                    </a>
+                </li>
+                
+            </ul>
+            <p>&copy; 2024 Fatma Rahma Messai. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="task4.js"></script>
+</body>
+</html> 
